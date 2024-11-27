@@ -1,0 +1,9 @@
+CONTAINER ID   IMAGE         COMMAND    CREATED              STATUS                          PORTS     NAMES
+74d9684b60ad   hello-world   "/hello"   About a minute ago   Exited (0) About a minute ago             meuContainer
+93f227f864fe   hello-world   "/hello"   3 minutes ago        Exited (0) 3 minutes ago                  heuristic_kare
+705651c51685   hello-world   "/hello"   45 minutes ago       Exited (0) 45 minutes ago                 hungry_ritchie
+66c3a9bb2265   hello-world   "/hello"   51 minutes ago       Exited (0) 51 minutes ago                 amazing_wozniak
+88c2534a499e   hello-world   "/hello"   12 days ago          Exited (0) 12 days ago                    condescending_rubin
+33d0b3e7ca6e   hello-world   "/hello"   12 days ago          Exited (0) 12 days ago                    magical_turing
+f6298f2cef30   hello-world   "/hello"   12 days ago          Exited (0) 12 days ago                    gracious_galileo
+927fff239778   hello-world   "/hello"   12 days ago          Exited (0) 12 days ago                    jolly_borg
