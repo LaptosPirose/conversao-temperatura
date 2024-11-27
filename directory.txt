@@ -1,0 +1,7 @@
+total 20
+drwxrwxr-x  4 angelo-moura angelo-moura 4096 Nov 27 14:49 .
+drwxr-xr-x 19 angelo-moura angelo-moura 4096 Nov 27 14:48 ..
+-rw-rw-r--  1 angelo-moura angelo-moura    0 Nov 27 14:49 directory.txt
+drwxrwxr-x  8 angelo-moura angelo-moura 4096 Nov 27 14:48 .git
+-rw-rw-r--  1 angelo-moura angelo-moura  308 Nov 27 14:48 README.md
+drwxrwxr-x  5 angelo-moura angelo-moura 4096 Nov 27 14:48 src
