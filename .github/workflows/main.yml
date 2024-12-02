@@ -48,6 +48,5 @@ jobs:
           file: ./src/Dockerfile
           push: true
           tags: |
-            # angelomoura/aula-conversao-temperatura:v1
-            angelomoura/aula-conversao-temperatura
+            angelomoura/aula-conversao-temperatura:latest
 
