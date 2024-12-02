@@ -1,0 +1,35 @@
+# This is a basic workflow starting with actions
+
+name: CI
+
+# Controls when the workflow will run
+
+on:
+
+  #triggers the workflow on push or pull request events but only for the main branch
+  push:
+    branches: [main]
+
+  #allow you to run this workflow manually from the actions tab
+  workflow_dispatch:
+
+#a workflow run is mande up for one or more jobs that can run sequentially or in parallel
+jobs:
+  #this workflow contais a single job called "buid"
+  CI:
+  #the type of runner that the job will run on
+    runs-on: ubuntu-latest
+
+    #steps represent a sequence of tasks that will be executed as part of the job
+    steps:
+      #checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
+      - uses: actions/checkout@v2
+
+      - name: Setup do NodeJs
+        uses: actions/setup-node@v3.0.0
+        with:
+          node-version: 16.13.2
+      
+      
+  
+
