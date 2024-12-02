@@ -45,9 +45,9 @@ jobs:
         uses: docker/build-push-action@v6.10.0
         with: 
           context: src
-          file: src/Dockerfile
+          file: Dockerfile
           push: true
-          tags:
+          tags: |
             # angelomoura/aula-conversao-temperatura:v1
-            angelomoura/aula-conversao-temperatura:latest
+            angelomoura/aula-conversao-temperatura
 
