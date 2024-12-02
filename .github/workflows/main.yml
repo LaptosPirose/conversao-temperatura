@@ -54,4 +54,5 @@ jobs:
                   file: ./src/Dockerfile
                   push: true
                   tags: |
+                      angelomoura/aula-conversao-temperatura:${{github.run_number}}
                       angelomoura/aula-conversao-temperatura:latest
